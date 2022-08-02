@@ -28,7 +28,14 @@ router.get('/:id', (req, res) => {
   Tag.findOne({
     where: {
       id: req.params.id
-    }
+    },
+    attributes: ["id", "tag_name"],
+    include: [
+      {
+        model: Product,
+        attributes: ["product_name", "price", "stock"],
+      }
+    ],
   })
     .then(dbTagData => {
       if (!dbTagData) {
