@@ -19,6 +19,7 @@ npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, and dotenv must be installed
 * To install the dotenv package, enter "npm install dotenv" in terminal while in the root folder of the project 
 
 Once the above steps have been followed, follow the steps below to run the application: 
+* Enter your MySQL username and password into the .env file
 * Enter "mysql -u root -p" and enter your MySQL password to navigate to the MySQL Shell
 * Enter "source db/schema.sql" in the MySQL Shell to create the "ecommerce_db" database
 * Exit the MySQL Shell and enter "npm run seed" in terminal while in the root folder of the project to seed the data in the "seeds" folder to the database
