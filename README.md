@@ -13,7 +13,7 @@ npm, Node.js, Express.js, MySQL, MySQL2, Sequelize, and dotenv must be installed
 
 * To initialize npm, enter "npm init" in terminal while in the root folder of the project
 * Node.js can be downloaded and installed from https://nodejs.org/en/download/  
-* MySQL can be downloaded and installed from 
+* MySQL can be downloaded and installed from https://dev.mysql.com/downloads/mysql/
 * To install Express.js, MySQL2 and Sequelize, enter "npm install express sequelize mysql2" in terminal while in the root folder of the project
 * To install the dotenv package, enter "npm install dotenv" in terminal while in the root folder of the project 
 
