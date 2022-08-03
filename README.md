@@ -6,6 +6,7 @@ Back end for an e-commerce site.
 ## Table of Contents
 [Installation Instructions](#installation-instructions)   
 [Built With](#built-with)  
+[Walkthrough Video](#walkthrough-video)  
 [Contribution](#contribution) 
 
 ## Installation Instructions
@@ -27,5 +28,7 @@ Once the above steps have been followed, follow the steps below to run the appli
 * Node.js
 * JavaScript
 
+## Walkthrough Video
+https://drive.google.com/file/d/1qrB9x0oaG5cgwK_jfNkfYvU6ni5PUq6q/view
 ## Contribution
 Made with ❤️ by Dylan Hay
