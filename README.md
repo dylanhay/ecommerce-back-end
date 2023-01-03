@@ -10,13 +10,10 @@ This application is covered under the following license. Please review the link 
 https://www.gnu.org/licenses/gpl-3.0
 
 ## Table of Contents
-[Walkthrough Video](#walkthrough-video)  
 [Built With](#built-with)  
 [Installation](#installation)   
+[Walkthrough Video](#walkthrough-video)  
 [Contribution](#contribution) 
-
-## Walkthrough Video
-https://drive.google.com/file/d/1qrB9x0oaG5cgwK_jfNkfYvU6ni5PUq6q/view
 
 ## Built With
 * JavaScript
@@ -31,10 +28,10 @@ https://drive.google.com/file/d/1qrB9x0oaG5cgwK_jfNkfYvU6ni5PUq6q/view
 ## Installation
 To run locally once cloned:
 * Enter `npm install` in the CLI while in the root folder to install the required npm packages
-* Create a .env file in the root folder and add the following lines to the file, filling in your MySQL username and password:
+* Create a .env file in the root folder and add the following lines to the file, filling in your unique MySQL password:
 
     `DB_NAME='ecommerce_db'`  
-    `DB_USER=''`  
+    `DB_USER='root'`  
     `DB_PASSWORD=''`  
 
 * Enter `mysql -u root -p` in the CLI and enter your MySQL password to navigate to the MySQL Shell
@@ -42,6 +39,9 @@ To run locally once cloned:
 * Exit the MySQL Shell and enter `npm run seed` in the CLI to seed the database
 * Enter `npm start` in the CLI to launch live server
 * Routes can tested and database can be edited via an API development platform such as Insomnia
+
+## Walkthrough Video
+https://drive.google.com/file/d/1qrB9x0oaG5cgwK_jfNkfYvU6ni5PUq6q/view
 
 ## Contribution
 Built by Dylan Hay
